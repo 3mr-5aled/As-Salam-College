@@ -5,3 +5,18 @@
   --fourth-color: #110d0d;
   --fifth-color: #ffffff;
 }
+.bg-main {
+  background-color: var(--main-color);
+}
+.bg-second {
+  background-color: var(--second-color);
+}
+.bg-third {
+  background-color: var(--third-color);
+}
+.bg-fourth {
+  background-color: var(--fourth-color);
+}
+.bg-fifth {
+  background-color: var(--fifth-color);
+}
