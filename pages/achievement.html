@@ -46,14 +46,136 @@
         </section>
 
         <!-- Contact us Section -->
-        <section id="contactus">
-            <h2>Contact Us</h2>
+        <section class="contact-us section bg-gray" id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="title text-center">
+                            <h2 style="border-bottom: 3px solid black;width: auto;">
+                                Contact Us
+                            </h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum reiciendis quasi
+                                itaque, obcaecati atque sit!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <!-- Contact Details -->
+                    <div class="col-md-6" style="background: url(../img/map.png);
+                    background-size: 38rem;
+                    background-position: center;">
+                    </div>
+                    <!-- / End Contact Details -->
+
+                    <!-- Contact Form -->
+                    <div class="contact-form col-md-6">
+                        <form id="contact-form" method="post" action="sendmail.php" role="form" novalidate="novalidate">
+
+                            <div class="form-group">
+                                <input type="text" placeholder="Your Name" class="form-control" name="name" id="name">
+                            </div>
+
+                            <div class="form-group">
+                                <input type="email" placeholder="Your Email" class="form-control" name="email"
+                                    id="email">
+                            </div>
+
+                            <div class="form-group">
+                                <input type="text" placeholder="Subject" class="form-control" name="subject"
+                                    id="subject">
+                            </div>
+
+                            <div class="form-group">
+                                <textarea rows="6" placeholder="Message" class="form-control" name="message"
+                                    id="message"></textarea>
+                            </div>
+
+                            <!-- <div id="success" class="success">
+                                Thank you. The Mailman is on His Way :)
+                            </div>
+
+                            <div id="error" class="error">
+                                Sorry, don't know what happened. Try later :(
+                            </div> -->
+
+                            <div id="cf-submit" class="align-self-center">
+                                <button type="button" id="contact-submit" class="btn btn-dark">Submit</button>
+                            </div>
+
+                        </form>
+                    </div>
+                    <!-- ./End Contact Form -->
+                </div> <!-- end row -->
+                <div class="row">
+                    <div class="col-md-4 m-5">
+                        <div class="address-block contact-meta-block">
+                            <i class="tf-ion-android-pin"></i>
+                            <h4>Our Location</h4>
+                            <p>
+                                14/05, Stockhome <br>
+                                Victori Palace , United States <br>
+
+                            </p>
+
+                        </div>
+                    </div>
+                    <div class="col-md-4 m-5">
+                        <div class="phone-block contact-meta-block">
+                            <i class="tf-ion-ios-telephone"></i>
+                            <h4>Call Us</h4>
+                            <p>
+                                Office: (03) 9283 2617 <br>
+                                Fax: +61 3827 3590
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="social-icons-block contact-meta-block">
+                            <i class="tf-ion-ios-contact"></i>
+                            <h4>We are social</h4>
+                            <ul class="list-inline social-icon">
+                                <li class="list-inline-item"><a href=""><i class="tf-ion-social-facebook"></i></a>
+                                </li>
+                                <li class="list-inline-item"><a href=""><i class="tf-ion-social-twitter"></i></a>
+                                </li>
+                                <li class="list-inline-item"><a href=""><i class="tf-ion-social-linkedin"></i></a>
+                                </li>
+                                <li class="list-inline-item"><a href=""><i class="tf-ion-social-dribbble"></i></a>
+                                </li>
+                                <li class="list-inline-item"><a href=""><i class="tf-ion-social-instagram"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </div> <!-- end container -->
         </section>
 
     </div>
+    <!-- Footer -->
+
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 p-5 border-top bg-third">
+        <p class="col-md-4 mb-0 text-dark">© built by
+            <a class="text-success text-decoration-none" href="#">Amr Khaled</a>
+            &
+            <a class="text-success text-decoration-none" href="#">Abdelrhman Ebian</a>
+        </p>
+
+        <a href="/"
+            class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
+            <img src="../img/logo.png" width="50px" height="50px" alt="">
+        </a>
+
+        <ul class="nav col-md-4 justify-content-end">
+            <li class="nav-item"><a href="../index.html" class="nav-link px-2 text-dark">Home</a></li>
+            <li class="nav-item"><a href="achievement.html" class="nav-link px-2 text-dark">Achivements</a></li>
+        </ul>
+    </footer>
     <!-- Scripts links -->
     <script src="../js/bootstrap.bundle.min.js"></script>
     <script src="../js/script.js"></script>
+
 </body>
 
 </html>
