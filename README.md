@@ -1,2 +1,3 @@
-# EL-Salam-Collage
-This is a project for school (EL-Salam Collage) in Egypt
+# EL-Salam-College
+
+This is a project for school (EL-Salam College) in Egypt
