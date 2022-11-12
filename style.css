@@ -1,0 +1,58 @@
+:root {
+  --main-color: #f8be81;
+  --second-color: #96a178;
+  --third-color: #c2b7ad;
+  --fourth-color: #110d0d;
+  --fifth-color: #ffffff;
+}
+.bg-main {
+  background-color: var(--main-color);
+}
+.bg-second {
+  background-color: var(--second-color);
+}
+.bg-third {
+  background-color: var(--third-color);
+}
+.bg-fourth {
+  background-color: var(--fourth-color);
+}
+.bg-fifth {
+  background-color: var(--fifth-color);
+}
+.special-heading{
+  color: var(--main-color);
+  /* margin-top: 50px; */
+  position: relative;
+  text-transform: capitalize;
+
+}
+.special-heading::after{
+position: absolute;
+/* margin: auto; */
+content: '';
+height: 5px;
+bottom: -10px;
+left: 50%;
+width: 50%;
+transform: translateX(-50%);
+background-color: var(--main-color);
+}
+#main{
+  background-image: url("/img/door.jpg") ;
+  height: calc(100vh - 55px);
+  position: relative;
+  background-size: cover;
+  /* background-size: 100vw; */
+}
+#main .text{
+  background-color: rgb(0 0 0/ 60%);
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+body::before{
+content: '';
+display:block;
+height: 55px;
+}
