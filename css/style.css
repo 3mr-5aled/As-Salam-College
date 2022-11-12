@@ -62,6 +62,13 @@ body::before {
   background-position: center;
   border: 5px solid black;
 }
+@media screen and (max-width: 640px) {
+  .map {
+    height: 15rem;
+    margin-bottom: 2rem;
+  }
+}
+
 .arabic {
   direction: rtl;
 }
@@ -79,4 +86,10 @@ body::before {
   outline: none !important;
   border: 1px solid var(--main-color);
   box-shadow: 0 0 10px var(--main-color);
+}
+.hover-zoom {
+  transition: transform 0.2s;
+}
+.hover-zoom:hover {
+  transform: scale(1.1);
 }
