@@ -71,7 +71,7 @@
   background-color: var(--main-color);
 }
 #main {
-  background-image: url("../img/door.jpg");
+  background-image: url("../img/door.webp");
   height: calc(100vh - 55px);
   position: relative;
   background-size: cover;
@@ -112,14 +112,16 @@ body::before {
   color: white;
 }
 .map {
-  background: url(../img/map.png);
+  background: url(../img/map.webp);
   background-size: 38rem;
   background-position: center;
   border: 7px solid var(--main-color);
   position: relative;
+  min-width: 15rem;
+  min-height: 22rem;
 }
-@media (max-width:767px){
-  .map{
+@media (max-width: 767px) {
+  .map {
     border: 3px solid var(--main-color);
   }
 }
@@ -139,10 +141,11 @@ body::before {
   background-color: green;
   color: white;
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 640px) {
   .map {
-    height: 15rem;
     margin-bottom: 2rem;
+    width: 25rem;
+    height: 15rem;
   }
 }
 
@@ -280,4 +283,13 @@ footer > p > a:hover {
 footer > a > img:hover {
   transform: scale(1.1);
   transition: ease 0.5s;
+}
+@media screen and (max-width: 640px) {
+  .mfooter {
+    font-size: 12px;
+    margin-bottom: 1rem !important;
+  }
+  .mfootnav {
+    margin-bottom: 1.3rem;
+  }
 }

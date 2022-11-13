@@ -2,21 +2,47 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>As-Salam College School</title>
-  <link rel="stylesheet" href="css/normalize.css" />
-  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.1/font/bootstrap-icons.css">
-  <link rel="stylesheet" href="css/style.css" />
-  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+
+
+  <!-- HTML Meta Tags -->
+  <title>As-Salam College School</title>
+  <meta name="description"
+    content="As-Salam College School for elementary and secondary education one of the best schools in El-zaiton">
+
+  <!-- Facebook Meta Tags -->
+  <meta property="og:url" content="https://el-salam-college.netlify.app/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="As-Salam College School">
+  <meta property="og:description"
+    content="As-Salam College School for elementary and secondary education one of the best schools in El-zaiton">
+  <meta property="og:image" content="img/banner.webp">
+
+  <!-- Twitter Meta Tags -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta property="twitter:domain" content="el-salam-college.netlify.app">
+  <meta property="twitter:url" content="https://el-salam-college.netlify.app/">
+  <meta name="twitter:title" content="As-Salam College School">
+  <meta name="twitter:description"
+    content="As-Salam College School for elementary and secondary education one of the best schools in El-zaiton">
+  <meta name="twitter:image" content="img/banner.webp">
+
+  <!-- Meta Tags Generated via https://www.opengraph.xyz -->
+
 </head>
 
 <body>
   <nav class="navbar navbar-expand-lg navbar-dark bg-fourth fixed-top">
     <!-- <div class="container-fluid"> -->
     <div class="container">
-      <a class="navbar-brand fw-bold text-light" href="#">
+      <a class="navbar-brand fw-bold text-light" href="index.html">
         <img src="img/logo.png" width="50px" height="45px" alt="" />
         As-Salam College
       </a>
@@ -101,7 +127,7 @@
           </div>
         </div>
         <div class="img-fluid imgcont">
-          <img class="imghover img-fluid" src="img/gate.png" alt="" />
+          <img class="imghover img-fluid" src="img/gate.webp" alt="" />
         </div>
       </div>
     </div>
@@ -112,7 +138,7 @@
       <h2 class="special-heading mt-md-4">تاريخنا</h2>
       <div class="d-flex mt-5 justify-content-between align-items-center flex-column flex-md-row">
         <div class="img-fluid imgcont">
-          <img src="img/banner.jpg" class="img-fluid imghover" alt="" />
+          <img src="img/banner.webp" class="img-fluid imghover" alt="" />
         </div>
         <div class="m-5 w-75">
           <p class="lead">
@@ -315,13 +341,13 @@
             <h4 class="d-inline"> We are social</h4>
             <ul class="ms-md-4 list-inline social-icon">
               <li class="list-inline-item">
-                <a href="#"><i class="fs-2 text-muted bi bi-facebook"></i></a>
+                <a href="#" target="_blank"><i class="fs-2 text-muted bi bi-facebook"></i></a>
               </li>
               <li class="list-inline-item">
-                <a href="#"><i class="fs-2 text-muted bi bi-whatsapp"></i></a>
+                <a href="#" target="_blank"><i class="fs-2 text-muted bi bi-whatsapp"></i></a>
               </li>
               <li class="list-inline-item">
-                <a href="#"><i class="fs-2 text-muted bi bi-messenger"></i></a>
+                <a href="#" target="_blank"><i class="fs-2 text-muted bi bi-messenger"></i></a>
               </li>
             </ul>
           </div>
@@ -336,11 +362,16 @@
   <!-- Footer -->
 
   <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 p-5 border-top border-3 bg-fourth">
-    <p class="col-md-4 mb-0 text-light">
-      &lt;Developed By&gt;
-      <a class="text-success text-decoration-none" href="#">Amr Khaled</a>
+    <p class="col-md-4 mb-0 mfooter text-light">
+      &lt;
+      <span class="text-purple">Developed By</span>
+      &gt;
+      <a class="text-success text-decoration-none" target="_blank" href="https://www.linkedin.com/in/3mr5aled/">Amr
+        Khaled</a>
       &
-      <a class="text-success text-decoration-none" href="https://www.linkedin.com/in/%D8%B9%D8%A8%D8%AF%D8%A7%D9%84%D8%B1%D8%AD%D9%85%D9%86-%D8%B9%D8%A8%D9%8A%D8%A7%D9%86-07a2bb183/">Abdelrhman Ebian</a>
+      <a class="text-success text-decoration-none" target="_blank"
+        href="https://www.linkedin.com/in/abdelrhmanebian">Abdelrhman
+        Ebian</a>
     </p>
 
     <a href="index.html"
@@ -349,10 +380,10 @@
     </a>
 
     <ul class="nav col-md-4 justify-content-end">
-      <li class="nav-item">
+      <li class="nav-item mfootnav">
         <a href="index.html" class="nav-link px-2 text-muted">Homepage</a>
       </li>
-      <li class="nav-item">
+      <li class="nav-item mfootnav">
         <a href="pages/achievement.html" class="nav-link px-2 text-muted">Achivements</a>
       </li>
     </ul>
