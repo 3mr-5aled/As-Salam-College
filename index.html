@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>El-Salam College School</title>
+  <title>As-Salam College School</title>
   <link rel="stylesheet" href="css/normalize.css" />
   <link rel="stylesheet" href="css/bootstrap.min.css" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.1/font/bootstrap-icons.css">
@@ -13,20 +13,22 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg navbar-dark bg-main fixed-top">
-    <div class="container-fluid">
-      <a class="navbar-brand fw-bold ms-lg-5 text-dark" href="#">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-fourth fixed-top">
+    <!-- <div class="container-fluid"> -->
+    <div class="container">
+      <a class="navbar-brand fw-bold text-light" href="#">
         <img src="img/logo.png" width="50px" height="45px" alt="" />
-        El-Salam College
+        As-Salam College
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ms-lg-auto me-lg-5 mb-2 mb-lg-0">
+        <ul class="navbar-nav ms-lg-auto mb-2 mb-lg-0">
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <a class="nav-link dropdown-toggle active" href="index.html" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
               Home
             </a>
             <ul class="dropdown-menu dropdown-menu-dark">
@@ -59,37 +61,38 @@
         </ul>
       </div>
     </div>
-    </div>
+    <!-- </div> -->
   </nav>
 
   <!-- landing section -Boody -->
   <main id="main" class="text-center">
     <div class="text w-100 text-light text-center p-4">
-      <h1 class="h3 text-capitalize py-3">El-Salam College</h1>
+      <h1 class="h3 text-capitalize py-3">As-Salam College Governmental School For Boys</h1>
       <p class="container">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus id
         nulla consequatur animi atque neque.
       </p>
     </div>
   </main>
-  <div class="container">
-    <!-- ? about section -Boody -->
-    <section id="about" class="text-center py-5">
+  <!-- <div class="container"> -->
+  <!-- ? about section -Boody -->
+  <section id="about" class="text-center py-5 bg-dark">
+    <div class="container text-dark">
       <h2 class="special-heading mb-4 mt-5">تعرف علينا</h2>
       <div class="d-flex justify-content-around align-items-center flex-column flex-lg-row">
         <div class="text-start d-flex flex-lg-column me-lg-5 justify-content-center">
-          <div class="card bg-main p-3 mb-2">
+          <div class="card bg-main hoverbg p-3 mb-2">
             <div class="card-body text-center">
-              <div class="card-title text-capitalize h4">Our Misson</div>
+              <div class="card-title text-capitalize h4">مهمتنا</div>
               <div class="card-text lead">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Soluta, error.
               </div>
             </div>
           </div>
-          <div class="card bg-main p-3 mb-2">
+          <div class="card bg-main hoverbg p-3 mb-2">
             <div class="card-body text-center">
-              <div class="card-title text-capitalize h4">Our Vision</div>
+              <div class="card-title text-capitalize h4">رؤيتنا</div>
               <div class="card-text lead">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Soluta, error.
@@ -97,17 +100,19 @@
             </div>
           </div>
         </div>
-        <div class="img-fluid">
-          <img class="img-fluid" src="img/gate.png" alt="" />
+        <div class="img-fluid imgcont">
+          <img class="imghover img-fluid" src="img/gate.png" alt="" />
         </div>
       </div>
-    </section>
-    <!-- ? History of the school section -->
-    <section id="history" class="py-5 text-center align-items-center">
+    </div>
+  </section>
+  <!-- ? History of the school section -->
+  <section id="history" class="py-5 text-center align-items-center">
+    <div class="container">
       <h2 class="special-heading mt-5">تاريخنا</h2>
       <div class="d-flex mt-5 justify-content-between align-items-center flex-column flex-md-row">
-        <div class="img-fluid">
-          <img src="img/banner.jpg" class="img-fluid" alt="" />
+        <div class="img-fluid imgcont">
+          <img src="img/banner.jpg" class="img-fluid imghover" alt="" />
         </div>
         <div class="m-5 w-75">
           <p class="lead">
@@ -118,65 +123,67 @@
           </p>
         </div>
       </div>
-    </section>
-    <!-- * Activity Section - Amr -->
-    <section id="activity" class="py-5 text-center align-items-center">
-      <h2 class="special-heading">الأنشطة</h2>
-      <div class="container px-4">
-        <div class="row row-cols-1 row-cols-md-2 align-items-md-center g-5 py-5">
-          <div class="d-flex flex-column align-items-start gap-2">
-            <h3 class="fw-bold">Left-aligned title explaining these awesome features</h3>
-            <p class="text-muted">Paragraph of text beneath the heading to explain the heading. We'll add onto it with
-              another sentence and probably just keep going until we run out of words.</p>
+    </div>
+  </section>
+  <!-- * Activity Section - Amr -->
+  <section id="activity" class="py-5 text-center align-items-center bg-dark">
+    <h2 class="special-heading">الأنشطة</h2>
+    <div class="container px-4">
+      <div class="row row-cols-1 row-cols-md-2 align-items-md-center g-5 py-5">
+        <div class="d-flex flex-column align-items-start text-light gap-2">
+          <h3 class="fw-bold">Left-aligned title explaining these awesome features</h3>
+          <p class="text-muted">Paragraph of text beneath the heading to explain the heading. We'll add onto it with
+            another sentence and probably just keep going until we run out of words.</p>
+        </div>
+        <div class="row row-cols-1 row-cols-sm-2 g-4">
+          <div class="d-flex flex-column gap-2 hoverbg3 border border-muted border-2">
+            <div
+              class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary fs-4 rounded-3">
+              <i class="text-light bi bi-rocket-fill"></i>
+            </div>
+            <h4 class="fw-semibold text-light text-hover mb-0">Featured title</h4>
+            <p class="text-muted">Paragraph of text beneath the heading to explain the heading.</p>
           </div>
-          <div class="row row-cols-1 row-cols-sm-2 g-4">
-            <div class="d-flex flex-column gap-2 border border-muted border-2">
-              <div
-                class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3">
-                <i class="text- bi bi-rocket-fill"></i>
-              </div>
-              <h4 class="fw-semibold mb-0">Featured title</h4>
-              <p class="text-muted">Paragraph of text beneath the heading to explain the heading.</p>
-            </div>
 
-            <div class="d-flex flex-column gap-2 border border-muted border-2">
-              <div
-                class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3">
-                <i class="text- bi bi-person-plus-fill"></i>
-              </div>
-              <h4 class="fw-semibold mb-0">Featured title</h4>
-              <p class="text-muted">Paragraph of text beneath the heading to explain the heading.</p>
+          <div class="d-flex flex-column gap-2 hoverbg3 border border-muted border-2">
+            <div
+              class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary fs-4 rounded-3">
+              <i class="text-light bi bi-person-plus-fill"></i>
             </div>
+            <h4 class="fw-semibold text-light text-hover mb-0">Featured title</h4>
+            <p class="text-muted">Paragraph of text beneath the heading to explain the heading.</p>
+          </div>
 
-            <div class="d-flex flex-column gap-2 border border-muted border-2">
-              <div
-                class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3">
-                <i class="text- bi bi-book"></i>
-              </div>
-              <h4 class="fw-semibold mb-0">Featured title</h4>
-              <p class="text-muted">Paragraph of text beneath the heading to explain the heading.</p>
+          <div class="d-flex flex-column gap-2 hoverbg3 border border-muted border-2">
+            <div
+              class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary fs-4 rounded-3">
+              <i class="text-light bi bi-book"></i>
             </div>
+            <h4 class="fw-semibold text-light text-hover mb-0">Featured title</h4>
+            <p class="text-muted">Paragraph of text beneath the heading to explain the heading.</p>
+          </div>
 
-            <div class="d-flex flex-column gap-2 border border-muted border-2">
-              <div
-                class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3">
-                <i class="text- bi bi-check2-square"></i>
-              </div>
-              <h4 class="fw-semibold mb-0">Featured title</h4>
-              <p class="text-muted">Paragraph of text beneath the heading to explain the heading.</p>
+          <div class="d-flex flex-column gap-2 hoverbg3 border border-muted border-2">
+            <div
+              class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary fs-4 rounded-3">
+              <i class="text-light bi bi-check2-square"></i>
             </div>
+            <h4 class="fw-semibold text-light text-hover mb-0">Featured title</h4>
+            <p class="text-muted">Paragraph of text beneath the heading to explain the heading.</p>
           </div>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <!-- ? comments Section - Boody -->
-    <section id="comments" class="py-5 text-center">
+  <!-- ? comments Section - Boody -->
+  <section id="comments" class="py-5 text-center">
+    <div class="container">
       <h2 class="special-heading">التعليقات</h2>
       <div id="one" class="carousel slide my-5" data-bs-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item text-center active">
-            <div class="d-block w-50 bg-main p-4 m-auto">
+            <div class="d-block w-50 bg-main hoverbg p-4 m-auto">
               <h6 class="text-capitalize h4 ">mohammmed</h6>
               <p class="lead">
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. At
@@ -186,7 +193,7 @@
             </div>
           </div>
           <div class="carousel-item">
-            <div class="d-block w-50 bg-main p-4 m-auto">
+            <div class="d-block w-50 bg-main hoverbg p-4 m-auto">
               <h6 class="text-capitalize h4">ibrahim</h6>
               <p class="lead">
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. At
@@ -196,7 +203,7 @@
             </div>
           </div>
           <div class="carousel-item">
-            <div class="d-block w-50 bg-main p-4 m-auto">
+            <div class="d-block w-50 bg-main hoverbg p-4 m-auto">
               <h6 class="text-capitalize h4">adel</h6>
               <p class="lead">
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. At
@@ -207,7 +214,7 @@
           </div>
 
           <div class="carousel-item">
-            <div class="d-block w-50 bg-main p-4 m-auto">
+            <div class="d-block w-50 bg-main hoverbg p-4 m-auto">
               <h6 class="text-capitalize h4">ramy</h6>
               <p class="lead">
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. At
@@ -217,134 +224,136 @@
             </div>
           </div>
           <button type="button" class="carousel-control-prev" data-bs-target="#one" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon  bg-main" aria-hidden="true"></span>
+            <span class="carousel-control-prev-icon  bg-main hoverbg" aria-hidden="true"></span>
             <span class="visually-hidden">prev</span>
           </button>
           <button type="button" class="carousel-control-next" data-bs-target="#one" data-bs-slide="next">
-            <span class="carousel-control-next-icon bg-main" aria-hidden="true"></span>
+            <span class="carousel-control-next-icon bg-main hoverbg" aria-hidden="true"></span>
             <span class="visually-hidden">next</span>
           </button>
 
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <!-- Contact us Section -->
-    <section class="contact-us section bg-gray" id="contact">
-      <div class="container">
-        <div class="row">
-          <div class="col-12">
-            <div class="title text-center">
-              <h2 class="special-heading mb-4">
-                تواصل معنا
-              </h2>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Illum reiciendis quasi itaque, obcaecati atque sit!
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <!-- Contact Details -->
-          <a class="col-md-6 map" href="https://goo.gl/maps/fGKBPpdDYTNJyH3MA" target="_blank"></a>
-          <!-- / End Contact Details -->
-
-          <!-- Contact Form -->
-          <div class="contact-form col-md-6">
-            <form id="contact-form" method="post" action="sendmail.php" role="form" novalidate="novalidate">
-              <div class="form-group">
-                <input type="text" placeholder="Your Name" class="form-control input" name="name" id="name" />
-              </div>
-
-              <div class="form-group">
-                <input type="email" placeholder="Your Email" class="form-control input" name="email" id="email" />
-              </div>
-
-              <div class="form-group">
-                <input type="text" placeholder="Subject" class="form-control input" name="subject" id="subject" />
-              </div>
-
-              <div class="form-group">
-                <textarea rows="6" placeholder="Message" class="form-control input" name="message"
-                  id="message"></textarea>
-              </div>
-
-              <div id="cf-submit" class="align-self-center">
-                <button type="button" id="contact-submit" class="btn btn-dark contactbtn">
-                  Submit
-                </button>
-              </div>
-            </form>
-          </div>
-          <!-- ./End Contact Form -->
-        </div>
-        <!-- end row -->
-        <div class="row">
-          <div class="col-md-4 mt-4">
-            <div class="address-block contact-meta-block">
-              <i class="d-inline fs-4 bi bi-pin-map-fill"></i>
-              <h4 class="d-inline">Our Location</h4>
-              <p class="arabic text-start">
-                5 متفرع من، جسر السويس <br />
-                سراى القبة، محافظة القاهرة <br />
-              </p>
-            </div>
-          </div>
-          <div class="col-md-4 mt-4">
-            <div class="phone-block contact-meta-block">
-              <i class="d-inline fs-4 bi bi-telephone-fill"></i>
-              <h4 class="d-inline">Call Us</h4>
-              <p class="fs-4">
-                Office: 0222580267
-              </p>
-            </div>
-          </div>
-          <div class="col-md-4 mt-4">
-            <div class="social-icons-block contact-meta-block">
-              <i class="d-inline fs-4 bi bi-chat-dots-fill"></i>
-              <h4 class="d-inline"> We are social</h4>
-              <ul class="ms-4 list-inline social-icon">
-                <li class="list-inline-item">
-                  <a href="#"><i class="fs-2 text-muted bi bi-facebook"></i></a>
-                </li>
-                <li class="list-inline-item">
-                  <a href="#"><i class="fs-2 text-muted bi bi-whatsapp"></i></a>
-                </li>
-                <li class="list-inline-item">
-                  <a href="#"><i class="fs-2 text-muted bi bi-messenger"></i></a>
-                </li>
-              </ul>
-            </div>
+  <!-- Contact us Section -->
+  <section class="contact-us bg-dark" id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="title text-center">
+            <h2 class="special-heading mb-4">
+              تواصل معنا
+            </h2>
+            <p class="text-light">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Illum reiciendis quasi itaque, obcaecati atque sit!
+            </p>
           </div>
         </div>
       </div>
-      <!-- end container -->
-    </section>
-  </div>
+      <div class="row">
+        <!-- Contact Details -->
+        <a class="col-md-6 map" href="https://goo.gl/maps/fGKBPpdDYTNJyH3MA" target="_blank">
+          <span>Click here for location <i class="bi bi-hand-index-thumb-fill"></i></span></a>
+        <!-- / End Contact Details -->
+
+        <!-- Contact Form -->
+        <div class="contact-form col-md-6">
+          <form id="contact-form" method="post" action="sendmail.php" role="form" novalidate="novalidate">
+            <div class="form-group">
+              <input type="text" placeholder="Your Name" class="form-control input" name="name" id="name" />
+            </div>
+
+            <div class="form-group">
+              <input type="email" placeholder="Your Email" class="form-control input" name="email" id="email" />
+            </div>
+
+            <div class="form-group">
+              <input type="text" placeholder="Subject" class="form-control input" name="subject" id="subject" />
+            </div>
+
+            <div class="form-group">
+              <textarea rows="6" placeholder="Message" class="form-control input" name="message"
+                id="message"></textarea>
+            </div>
+
+            <div id="cf-submit" class="align-self-center">
+              <button type="button" id="contact-submit" class="btn btn-dark fw-bold contactbtn">
+                Submit
+              </button>
+            </div>
+          </form>
+        </div>
+        <!-- ./End Contact Form -->
+      </div>
+      <!-- end row -->
+      <div class="row">
+        <div class="col-md-4 mt-4 hoverbg2 text-light">
+          <div class="address-block contact-meta-block">
+            <i class="d-inline fs-4 bi bi-pin-map-fill"></i>
+            <h4 class="d-inline">Our Location</h4>
+            <p class="arabic text-start">
+              5 متفرع من، جسر السويس <br />
+              سراى القبة، محافظة القاهرة <br />
+            </p>
+          </div>
+        </div>
+        <div class="col-md-4 mt-4 hoverbg2 text-light">
+          <div class="phone-block contact-meta-block">
+            <i class="d-inline fs-4 bi bi-telephone-fill"></i>
+            <h4 class="d-inline">Call Us</h4>
+            <p class="fs-4">
+              Office: 0222580267
+            </p>
+          </div>
+        </div>
+        <div class="col-md-4 mt-4 hoverbg2 text-light">
+          <div class="social-icons-block contact-meta-block">
+            <i class="d-inline fs-4 bi bi-chat-dots-fill"></i>
+            <h4 class="d-inline"> We are social</h4>
+            <ul class="ms-4 list-inline social-icon">
+              <li class="list-inline-item">
+                <a href="#"><i class="fs-2 text-muted bi bi-facebook"></i></a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#"><i class="fs-2 text-muted bi bi-whatsapp"></i></a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#"><i class="fs-2 text-muted bi bi-messenger"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end container -->
+  </section>
+  <!-- </div> -->
 
 
   <!-- Footer -->
 
-  <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 p-5 border-top bg-third">
-    <p class="col-md-4 mb-0 text-dark">
-      © built by
+  <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 p-5 border-top border-3 bg-fourth">
+    <p class="col-md-4 mb-0 text-light">
+      &lt;Developed By&gt;
       <a class="text-success text-decoration-none" href="#">Amr Khaled</a>
       &
       <a class="text-success text-decoration-none" href="#">Abdelrhman Ebian</a>
     </p>
 
-    <a href="/"
+    <a href="index.html"
       class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
       <img src="img/logo.png" width="50px" height="50px" alt="" />
     </a>
 
     <ul class="nav col-md-4 justify-content-end">
       <li class="nav-item">
-        <a href="index.html" class="nav-link px-2 text-dark">Home</a>
+        <a href="index.html" class="nav-link px-2 text-muted">Homepage</a>
       </li>
       <li class="nav-item">
-        <a href="pages/achievement.html" class="nav-link px-2 text-dark">Achivements</a>
+        <a href="pages/achievement.html" class="nav-link px-2 text-muted">Achivements</a>
       </li>
     </ul>
   </footer>

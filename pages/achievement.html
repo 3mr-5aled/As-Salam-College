@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>El-Salam College School- Achievement</title>
+    <title>As-Salam College School- Achievement</title>
     <link rel="stylesheet" href="../css/normalize.css">
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.1/font/bootstrap-icons.css">
@@ -13,11 +13,11 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-main fixed-top">
-        <div class="container-fluid">
-            <a class="navbar-brand fw-bold ms-lg-5 text-dark" href="#">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-fourth fixed-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold text-light" href="#">
                 <img src="../img/logo.png" width="50px" height="45px" alt="" />
-                El-Salam College
+                As-Salam College
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -25,7 +25,7 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-lg-auto me-lg-5 mb-2 mb-lg-0">
+                <ul class="navbar-nav ms-lg-auto mb-2 mb-lg-0">
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="../index.html" role="button" data-bs-toggle="dropdown"
                             aria-expanded="false">
@@ -44,7 +44,7 @@
                         </ul>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="achievement.html" role="button"
+                        <a class="nav-link dropdown-toggle active" href="achievement.html" role="button"
                             data-bs-toggle="dropdown" aria-expanded="false">
                             Achivements
                         </a>
@@ -63,10 +63,11 @@
         </div>
         </div>
     </nav>
-    <div class="container mt-4">
+    <!-- <div class="container mt-4"> -->
 
-        <!--* Achievement section -Amr -->
-        <section id="achievements" class="pt-5 text-center align-items-center">
+    <!--* Achievement section -Amr -->
+    <section id="achievements" class=" py-5 text-center align-items-center">
+        <div class="container">
             <h2 class="special-heading">الإنجازات</h2>
             <!-- Start Portfolio -->
             <div class="portfolio">
@@ -78,14 +79,14 @@
                             repellendus repudiandae, quidem libero placeat? Laboriosam, illum!
                         </p>
                     </div>
-                    <ul class="shuffle">
-                        <li class="active">All</li>
-                        <li>المدرسة</li>
-                        <li>الإدارة</li>
-                        <li>الطلبه</li>
+                    <ul class="d-flex justify-content-center list-unstyled">
+                        <li class="px-3 filterlist active">All</li>
+                        <li class="px-3 filterlist">المدرسة</li>
+                        <li class="px-3 filterlist">الإدارة</li>
+                        <li class="px-3 filterlist">الطلبه</li>
                     </ul>
                 </div>
-                <div class="imgs-container">
+                <div class="imgs-container d-flex flex-wrap gap-1 mt-2">
                     <div class="box">
                         <img src="https://picsum.photos/300/150" alt="" />
                         <div class="caption">
@@ -144,66 +145,70 @@
                     </div>
                 </div>
             </div>
-            <!-- End Portfolio -->
-        </section>
-        <!-- * teachers of the school section - Amr -->
-        <section id="teachers" class="mt-5 text-center py-5">
+        </div>
+        <!-- End Portfolio -->
+    </section>
+    <!-- * teachers of the school section - Amr -->
+    <section id="teachers" class="mt-5 text-center py-5 bg-dark">
+        <div class="container">
             <h2 class="special-heading mb-5 mt-5">المعلمون</h2>
             <div class="row">
-                <div class="card bg-third m-3" style="width:250px">
+                <div class="card bg-light m-3" style="width:250px">
                     <img class="card-img-top hover-zoom align-self-center" alt="Card image"
                         style="width:10rem;height: 10rem;"
                         src='https://avataaars.io/?avatarStyle=Circle&topType=LongHairStraight&accessoriesType=Blank&hairColor=BrownDark&facialHairType=Blank&clotheType=BlazerShirt&eyeType=Default&eyebrowType=Default&mouthType=Default&skinColor=Light' />
                     <div class="card-body">
-                        <h4 class="card-title">Ms.Mariam</h4>
-                        <p class="card-text">Some example text some example text. Ms.Mariam is a teacher
+                        <h4 class="card-title text-dark">Ms.Mariam</h4>
+                        <p class="card-text text-muted">Some example text some example text. Ms.Mariam is a teacher
                         </p>
-                        <a href="#" class="btn btn-light text-dark">See Profile</a>
+                        <a href="#" class="btn btn-dark cardbuttonhover text-white">See Profile</a>
                     </div>
                 </div>
-                <div class="card bg-third m-3" style="width:250px">
+                <div class="card bg-white m-3" style="width:250px">
                     <img class="card-img-top hover-zoom align-self-center" alt="Card image"
                         style="width:10rem;height: 10rem;"
                         src='https://avataaars.io/?avatarStyle=Circle&topType=ShortHairShortCurly&accessoriesType=Sunglasses&hairColor=Black&facialHairType=Blank&clotheType=CollarSweater&clotheColor=Red&eyeType=WinkWacky&eyebrowType=Angry&mouthType=Twinkle&skinColor=Yellow' />
                     <div class="card-body">
-                        <h4 class="card-title">Mr.Mohammed</h4>
-                        <p class="card-text">Some example text some example. Mr.Mohammed is a teacher
+                        <h4 class="card-title text-dark">Mr.Mohammed</h4>
+                        <p class="card-text text-muted">Some example text some example. Mr.Mohammed is a teacher
                         </p>
-                        <a href="#" class="btn btn-light text-dark">See Profile</a>
+                        <a href="#" class="btn btn-dark cardbuttonhover text-white">See Profile</a>
                     </div>
                 </div>
-                <div class="card bg-third m-3" style="width:250px">
+                <div class="card bg-white m-3" style="width:250px">
                     <img class="card-img-top hover-zoom align-self-center" alt="Card image"
                         style="width:10rem;height: 10rem;"
                         src='https://avataaars.io/?avatarStyle=Circle&topType=Hijab&accessoriesType=Sunglasses&hatColor=Gray02&clotheType=CollarSweater&clotheColor=Heather&eyeType=Close&eyebrowType=RaisedExcited&mouthType=Twinkle&skinColor=Yellow' />
                     <div class="card-body">
-                        <h4 class="card-title">Ms.Assma</h4>
-                        <p class="card-text">Some example text some example text. Ms.Assma is a teacher
+                        <h4 class="card-title text-dark">Ms.Assma</h4>
+                        <p class="card-text text-muted">Some example text some example text. Ms.Assma is a teacher
                         </p>
-                        <a href="#" class="btn btn-light text-dark">See Profile</a>
+                        <a href="#" class="btn btn-dark cardbuttonhover text-white">See Profile</a>
                     </div>
                 </div>
-                <div class="card bg-third m-3" style="width:250px">
+                <div class="card bg-white m-3" style="width:250px">
                     <img class="card-img-top hover-zoom align-self-center" alt="Card image"
                         style="width:10rem;height: 10rem;"
                         src='https://avataaars.io/?avatarStyle=Circle&topType=ShortHairTheCaesarSidePart&accessoriesType=Blank&hairColor=Brown&facialHairType=MoustacheMagnum&facialHairColor=Brown&clotheType=CollarSweater&clotheColor=White&eyeType=Default&eyebrowType=UpDownNatural&mouthType=Serious&skinColor=Yellow' />
                     <div class="card-body">
-                        <h4 class="card-title">Mr.Salah</h4>
-                        <p class="card-text">Some example text some example text. Mr.Salah is a teacher
+                        <h4 class="card-title text-dark">Mr.Salah</h4>
+                        <p class="card-text text-muted">Some example text some example text. Mr.Salah is a teacher
                         </p>
-                        <a href="#" class="btn btn-light text-dark">See Profile</a>
+                        <a href="#" class="btn btn-dark cardbuttonhover text-white">See Profile</a>
                     </div>
                 </div>
-            </div class="row">
+            </div>
+        </div>
 
-        </section>
-        <!-- ? comments Section - Boody -->
-        <section id="comments" class="py-5 text-center">
+    </section>
+    <!-- ? comments Section - Boody -->
+    <section id="comments" class="py-5 text-center">
+        <div class="container">
             <h2 class="special-heading">التعليقات</h2>
             <div id="one" class="carousel slide my-5" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item text-center active">
-                        <div class="d-block w-50 bg-main p-4 m-auto">
+                        <div class="d-block w-50 bg-main hoverbg p-4 m-auto">
                             <h6 class="text-capitalize h4 ">mohammmed</h6>
                             <p class="lead">
                                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. At
@@ -213,7 +218,7 @@
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <div class="d-block w-50 bg-main p-4 m-auto">
+                        <div class="d-block w-50 bg-main hoverbg p-4 m-auto">
                             <h6 class="text-capitalize h4">ibrahim</h6>
                             <p class="lead">
                                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. At
@@ -223,7 +228,7 @@
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <div class="d-block w-50 bg-main p-4 m-auto">
+                        <div class="d-block w-50 bg-main hoverbg p-4 m-auto">
                             <h6 class="text-capitalize h4">adel</h6>
                             <p class="lead">
                                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. At
@@ -234,7 +239,7 @@
                     </div>
 
                     <div class="carousel-item">
-                        <div class="d-block w-50 bg-main p-4 m-auto">
+                        <div class="d-block w-50 bg-main hoverbg p-4 m-auto">
                             <h6 class="text-capitalize h4">ramy</h6>
                             <p class="lead">
                                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. At
@@ -244,132 +249,142 @@
                         </div>
                     </div>
                     <button type="button" class="carousel-control-prev" data-bs-target="#one" data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon  bg-main" aria-hidden="true"></span>
+                        <span class="carousel-control-prev-icon  bg-main hoverbg" aria-hidden="true"></span>
                         <span class="visually-hidden">prev</span>
                     </button>
                     <button type="button" class="carousel-control-next" data-bs-target="#one" data-bs-slide="next">
-                        <span class="carousel-control-next-icon bg-main" aria-hidden="true"></span>
+                        <span class="carousel-control-next-icon bg-main hoverbg" aria-hidden="true"></span>
                         <span class="visually-hidden">next</span>
                     </button>
 
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
 
-        <!-- Contact us Section -->
-        <section class="contact-us section bg-gray" id="contact">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12">
-                        <div class="title text-center">
-                            <h2 class="special-heading mb-4">
-                                تواصل معنا
-                            </h2>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                Illum reiciendis quasi itaque, obcaecati atque sit!
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <!-- Contact Details -->
-                    <a class="col-md-6 map" href="https://goo.gl/maps/fGKBPpdDYTNJyH3MA" target="_blank"></a>
-                    <!-- / End Contact Details -->
-
-                    <!-- Contact Form -->
-                    <div class="contact-form col-md-6">
-                        <form id="contact-form" method="post" action="sendmail.php" role="form" novalidate="novalidate">
-                            <div class="form-group">
-                                <input type="text" placeholder="Your Name" class="form-control input" name="name"
-                                    id="name" />
-                            </div>
-
-                            <div class="form-group">
-                                <input type="email" placeholder="Your Email" class="form-control input" name="email"
-                                    id="email" />
-                            </div>
-
-                            <div class="form-group">
-                                <input type="text" placeholder="Subject" class="form-control input" name="subject"
-                                    id="subject" />
-                            </div>
-
-                            <div class="form-group">
-                                <textarea rows="6" placeholder="Message" class="form-control input" name="message"
-                                    id="message"></textarea>
-                            </div>
-
-                            <div id="cf-submit" class="align-self-center">
-                                <button type="button" id="contact-submit" class="btn btn-dark contactbtn">
-                                    Submit
-                                </button>
-                            </div>
-                        </form>
-                    </div>
-                    <!-- ./End Contact Form -->
-                </div>
-                <!-- end row -->
-                <div class="row">
-                    <div class="col-md-4 mt-4">
-                        <div class="address-block contact-meta-block">
-                            <i class="d-inline fs-4 bi bi-pin-map-fill"></i>
-                            <h4 class="d-inline">Our Location</h4>
-                            <p class="arabic text-start">
-                                5 متفرع من، جسر السويس <br />
-                                سراى القبة، محافظة القاهرة <br />
-                            </p>
-                        </div>
-                    </div>
-                    <div class="col-md-4 mt-4">
-                        <div class="phone-block contact-meta-block">
-                            <i class="d-inline fs-4 bi bi-telephone-fill"></i>
-                            <h4 class="d-inline">Call Us</h4>
-                            <p class="fs-4">
-                                Office: 0222580267
-                            </p>
-                        </div>
-                    </div>
-                    <div class="col-md-4 mt-4">
-                        <div class="social-icons-block contact-meta-block">
-                            <i class="d-inline fs-4 bi bi-chat-dots-fill"></i>
-                            <h4 class="d-inline"> We are social</h4>
-                            <ul class="ms-4 list-inline social-icon">
-                                <li class="list-inline-item">
-                                    <a href="#"><i class="fs-2 text-muted bi bi-facebook"></i></a>
-                                </li>
-                                <li class="list-inline-item">
-                                    <a href="#"><i class="fs-2 text-muted bi bi-twitter"></i></a>
-                                </li>
-                                <li class="list-inline-item">
-                                    <a href="#"><i class="fs-2 text-muted bi bi-linkedin"></i></a>
-                                </li>
-                            </ul>
-                        </div>
+    <!-- Contact us Section -->
+    <section class="contact-us bg-dark pt-5" id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="title text-center">
+                        <h2 class="special-heading mb-4">
+                            تواصل معنا
+                        </h2>
+                        <p class="text-white">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            Illum reiciendis quasi itaque, obcaecati atque sit!
+                        </p>
                     </div>
                 </div>
             </div>
-            <!-- end container -->
-        </section>
+            <div class="row">
+                <!-- Contact Details -->
+                <a class="col-md-6 map" href="https://goo.gl/maps/fGKBPpdDYTNJyH3MA" target="_blank">
+                    <span>Click here for location <i class="bi bi-hand-index-thumb-fill"></i></span></a>
+                <!-- / End Contact Details -->
 
-    </div>
+                <!-- Contact Form -->
+                <div class="contact-form col-md-6">
+                    <form id="contact-form" method="post" action="sendmail.php" role="form" novalidate="novalidate">
+                        <div class="form-group">
+                            <input type="text" placeholder="Your Name" class="form-control input" name="name"
+                                id="name" />
+                        </div>
+
+                        <div class="form-group">
+                            <input type="email" placeholder="Your Email" class="form-control input" name="email"
+                                id="email" />
+                        </div>
+
+                        <div class="form-group">
+                            <input type="text" placeholder="Subject" class="form-control input" name="subject"
+                                id="subject" />
+                        </div>
+
+                        <div class="form-group">
+                            <textarea rows="6" placeholder="Message" class="form-control input" name="message"
+                                id="message"></textarea>
+                        </div>
+
+                        <div id="cf-submit" class="align-self-center">
+                            <button type="button" id="contact-submit" class="btn btn-dark fw-bold contactbtn">
+                                Submit
+                            </button>
+                        </div>
+                    </form>
+                </div>
+                <!-- ./End Contact Form -->
+            </div>
+            <!-- end row -->
+            <div class="row">
+                <div class="col-md-4 mt-4 hoverbg2 text-light">
+                    <div class="address-block contact-meta-block">
+                        <i class="d-inline fs-4 bi bi-pin-map-fill"></i>
+                        <h4 class="d-inline">Our Location</h4>
+                        <p class="arabic text-start">
+                            5 متفرع من، جسر السويس <br />
+                            سراى القبة، محافظة القاهرة <br />
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-4 mt-4 hoverbg2 text-light">
+                    <div class="phone-block contact-meta-block">
+                        <i class="d-inline fs-4 bi bi-telephone-fill"></i>
+                        <h4 class="d-inline">Call Us</h4>
+                        <p class="fs-4">
+                            Office: 0222580267
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-4 mt-4 hoverbg2 text-light">
+                    <div class="social-icons-block contact-meta-block">
+                        <i class="d-inline fs-4 bi bi-chat-dots-fill"></i>
+                        <h4 class="d-inline"> We are social</h4>
+                        <ul class="ms-4 list-inline social-icon">
+                            <li class="list-inline-item">
+                                <a href="#"><i class="fs-2 text-muted bi bi-facebook"></i></a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="#"><i class="fs-2 text-muted bi bi-whatsapp"></i></a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="#"><i class="fs-2 text-muted bi bi-messenger"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end container -->
+    </section>
+    <!-- </div> -->
+
+
     <!-- Footer -->
 
-    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 p-5 border-top bg-third">
-        <p class="col-md-4 mb-0 text-dark">© built by
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 p-5 border-top border-3 bg-fourth">
+        <p class="col-md-4 mb-0 text-light">
+            &lt; <span class="text-purple">
+                Developed By
+            </span> &gt;
             <a class="text-success text-decoration-none" href="#">Amr Khaled</a>
             &
             <a class="text-success text-decoration-none" href="#">Abdelrhman Ebian</a>
         </p>
 
-        <a href="/"
+        <a href="../index.html"
             class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
-            <img src="../img/logo.png" width="50px" height="50px" alt="">
+            <img src="../img/logo.png" width="50px" height="50px" alt="" />
         </a>
 
         <ul class="nav col-md-4 justify-content-end">
-            <li class="nav-item"><a href="../index.html" class="nav-link px-2 text-dark">Home</a></li>
-            <li class="nav-item"><a href="achievement.html" class="nav-link px-2 text-dark">Achivements</a></li>
+            <li class="nav-item">
+                <a href="../index.html" class="nav-link px-2 text-muted">Homepage</a>
+            </li>
+            <li class="nav-item">
+                <a href="achievement.html" class="nav-link px-2 text-muted">Achivements</a>
+            </li>
         </ul>
     </footer>
     <!-- Scripts links -->
