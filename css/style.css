@@ -270,7 +270,58 @@ li.active {
   color: aquamarine !important;
 }
 
+/* droos tabs */
+.tabcontent {
+  display: none;
+}
+/* .active .tabcontent {
+  display: block;
+} */
+.tab button.active {
+  background-color: var(--main-color);
+}
+@media screen and (max-width: 640px) {
+  div > .tablinks {
+    margin: 3px 1px;
+  }
+}
+
+.tablinks {
+  border: var(--main-color) 2px solid;
+  background-color: transparent;
+}
+.tablinks:hover,
+.tablinks:focus {
+  background-color: var(--main-color);
+}
+.tabcontent {
+  animation: fadeEffect 1s; /* Fading effect takes 1 second */
+}
+
+/* Go from zero to full opacity */
+@keyframes fadeEffect {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+/* @media screen and (max-width: 680px) {
+  iframe {
+    display: none;
+  }
+} */
+/* .sheet { */
+/* width: 100%;
+  height: 50vh;
+} */
+/* div#top-bar {
+  display: none;
+} */
+
 /* End Portfolio */
+
 footer > ul > li > a:hover {
   color: white !important;
   font-weight: 500;
@@ -291,5 +342,18 @@ footer > a > img:hover {
   }
   .mfootnav {
     margin-bottom: 1.3rem;
+  }
+}
+/* footer {
+  position: absolute;
+  bottom: 0;
+} */
+.fullpage {
+  height: 100vh;
+  width: 100vw;
+}
+@media screen and (max-width: 640px) {
+  .fullpage {
+    height: 80vh;
   }
 }
