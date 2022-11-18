@@ -34,6 +34,48 @@ img {
 a {
   text-decoration: none;
 }
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  z-index: 20;
+  font-size: 30px;
+  background: white;
+  color: var(--fourth-color);
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 25px;
+  width: 3rem;
+  height: 3rem;
+}
+/* #myBtn i:hover {
+  position: relative;
+  bottom: 11px;
+  right: 9px;
+} */
+#myBtn:hover {
+  background-color: #555;
+}
+
+.bi-arrow-up::before {
+  color: var(--fourth-color) !important;
+  font-weight: bold !important;
+  position: relative;
+  bottom: 14px !important;
+  right: 8px !important;
+}
+#myBtn:hover .bi-arrow-up::before,
+#myBtn:focus .bi-arrow-up::before {
+  color: white !important;
+}
+
+@media screen and (max-width: 600px) {
+  #myBtn {
+    bottom: 1rem;
+    right: 1rem;
+  }
+}
 .navbar-dark .navbar-brand {
   transition: ease 0.5s;
 }
