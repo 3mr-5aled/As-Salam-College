@@ -179,6 +179,7 @@ body::before {
 }
 .hoverbg2:hover .bi-facebook::before,
 .hoverbg2:hover .bi-whatsapp::before,
+.hoverbg2:hover .bi-linkedin::before,
 .hoverbg2:hover .bi-messenger::before {
   color: white;
 }
@@ -337,6 +338,7 @@ li.active {
 
 .bi-facebook:hover::before,
 .bi-whatsapp:hover::before,
+.bi-linkedin:hover::before,
 .bi-messenger:hover::before {
   color: aquamarine !important;
 }
