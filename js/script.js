@@ -48,7 +48,7 @@ function topFunction() {
 
 // read more
 
-function myFunction() {
+function readfunction() {
     var dots = document.getElementById("dots");
     var moreText = document.getElementById("more");
     var btnText = document.getElementById("readbutton");
