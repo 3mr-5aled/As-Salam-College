@@ -220,9 +220,14 @@ body::before {
     height: 15rem;
   }
 }
-
-.arabic {
+#more {
+  display: none;
+}
+.rtl {
   direction: rtl;
+}
+.ltr {
+  direction: ltr;
 }
 .contactbtn {
   border: none;
