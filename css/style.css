@@ -41,8 +41,7 @@ a {
   right: 2rem;
   z-index: 20;
   font-size: 30px;
-  background: white;
-  color: var(--fourth-color);
+  background: rgb(70, 70, 70);
   cursor: pointer;
   padding: 15px;
   border-radius: 25px;
@@ -55,11 +54,11 @@ a {
   right: 9px;
 } */
 #myBtn:hover {
-  background-color: #555;
+  background-color: rgb(122, 122, 122);
 }
 
 .bi-arrow-up::before {
-  color: var(--fourth-color) !important;
+  color: white !important;
   font-weight: bold !important;
   position: relative;
   bottom: 14px !important;
