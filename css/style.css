@@ -34,11 +34,14 @@ img {
 a {
   text-decoration: none;
 }
+.p-0 {
+  padding: 0 !important;
+}
 #myBtn {
   display: none;
   position: fixed;
-  bottom: 2rem;
-  right: 2rem;
+  bottom: 4.5rem;
+  right: 1rem;
   z-index: 20;
   font-size: 30px;
   background: rgb(70, 70, 70);
@@ -97,14 +100,19 @@ a {
 }
 .navbar-dark .navbar-nav .nav-link:hover::before {
   position: absolute;
-  /* margin: auto; */
+  /*margin: auto;
+  */
   content: "";
   height: 5px;
   bottom: -5px;
-  left: 40%;
+  left: 45%;
   width: 60%;
-  transform: translateX(-50%);
+  transform: translateX(-30%);
   background-color: white;
+  -webkit-transform: translateX(-30%);
+  -moz-transform: translateX(-30%);
+  -ms-transform: translateX(-30%);
+  -o-transform: translateX(-30%);
 }
 .drossnav:hover::before {
   position: absolute;
@@ -112,7 +120,7 @@ a {
   height: 5px;
   bottom: -5px;
   left: 40%;
-  width: 60%;
+  width: 50%;
   transform: translateX(-30%) !important;
   background-color: white;
 }
@@ -123,6 +131,19 @@ a {
   .drossnav:hover::before {
     display: none;
   }
+}
+.dropdown-item {
+  text-align: right;
+}
+.w-90 {
+  width: 90%;
+}
+.roundcorner {
+  border-radius: 25px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
 }
 .special-heading {
   color: var(--main-color);
