@@ -141,6 +141,12 @@ a {
 .w-90 {
   width: 90%;
 }
+.fs-200{
+  font-size: 200px;
+}
+.opacity-90{
+  opacity: 90%;
+}
 .roundcorner {
   border-radius: 25px;
   -webkit-border-radius: 25px;
