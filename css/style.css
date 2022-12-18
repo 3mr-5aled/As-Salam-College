@@ -28,6 +28,9 @@
 .p-2rem {
   padding: 2rem !important;
 }
+.border-main{
+  border-color: var(--main-color) !important;
+}
 img {
   border-radius: 15px;
 }
