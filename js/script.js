@@ -66,25 +66,53 @@ function readfunction() {
 
 //  Counter
 
-const counters = document.querySelectorAll('.value');
-const speed = 200;
 
-counters.forEach( counter => {
-   const animate = () => {
-      const value = +counter.getAttribute('akhi');
-      const data = +counter.innerText;
-     
-      const time = value / speed;
-     if(data < value) {
-          counter.innerText = Math.ceil(data + time);
-          setTimeout(animate, 1);
-        }else{
-          counter.innerText = value;
-        }
-     
-   }
-   
-   animate();
-});
+// const section = document.querySelector("#statistics")
 
+// window.onscroll = function () {
+//     if(window.scrollY >= section.offsetTop){
+        
+//         const counters = document.querySelectorAll('.value');
+//         const speed = 200;
+        
+//         counters.forEach( counter => {
+//             const animate = () => {
+//                 const value = +counter.getAttribute('akhi');
+//                 const data = +counter.innerText;
+                
+//                 const time = value / speed;
+//                 if(data < value) {
+//                     counter.innerText = Math.ceil(data + time);
+//                     setTimeout(animate, 1);
+//                 }else{
+//                     counter.innerText = value;
+//                 }
+                
+//             }
+            
+//             animate();
+//         });
+//     }
+// }
+let nums = document.querySelectorAll(".value");
+let section = document.querySelector("#statistics")
+let started = false; // Function Started ? No
 
+window.onscroll = function () {
+  if (window.scrollY >= section.offsetTop) {
+    if (!started) {
+      nums.forEach((num) => startCount(num));
+    }
+    started = true;
+  }
+};
+
+function startCount(el) {
+  let goal = el.dataset.goal;
+  let count = setInterval(() => {
+    el.textContent++;
+    if (el.textContent == goal) {
+      clearInterval(count);
+    }
+  }, 2000 / goal);
+}
