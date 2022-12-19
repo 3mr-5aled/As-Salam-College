@@ -115,7 +115,10 @@
     </button>
 
     <!--* Achievement section -Amr -->
-    <section id="achievements" class="py-5 text-center align-items-center text-center">
+    <section
+      id="achievements"
+      class="py-5 text-center align-items-center text-center"
+    >
       <div class="container">
         <h1 class="special-heading mt-md-4">الإنجازات</h1>
         <!-- Start Portfolio -->
@@ -125,85 +128,91 @@
               هذه بعض الإنجازات من الإنجازات التي لا تعد ولا تحصي من تلك المدرسة
               العظيمة
             </p>
-            <ul class="d-flex justify-content-center list-unstyled">
-              <li class="px-3 filterlist active">All</li>
+            <!-- <ul class="d-flex justify-content-center list-unstyled">
+              <li class="px-3 filterlist" id="defaultOpen">All</li>
               <li class="px-3 filterlist">المدرسة</li>
               <li class="px-3 filterlist">الادارة</li>
               <li class="px-3 filterlist">الطلبه</li>
-            </ul>
-         
-          <div
-            class="imgs-container justify-content-center d-flex flex-wrap gap-2 mt-2"
-          >
-            <div class="box col-md-5 right" data-filter="الادارة">
-              <li>
-                حصول مديرة المدرسة علي المركز الخامس بمسابقة الرائد المثالي
-              </li>
+            </ul> -->
+            <div class="d-flex justify-content-center list-unstyled">
+              <button class="px-3 filterlist" id="defaultOpen">الكل</button>
+              <button class="px-3 filterlist">المدرسة</button>
+              <button class="px-3 filterlist">الادارة</button>
+              <button class="px-3 filterlist">الطلبه</button>
             </div>
-            <div class="box col-md-5 left" data-filter="المدرسة">
-              <li>
-                حصول المدرسة علي المركز الثاني بمسابقة المكتب التنفيذي لاتحاد
-                طلاب الإعدادي
-              </li>
-            </div>
-            <div class="box col-md-5 right" data-filter="الطلبه">
-              <li>
-                حصول الطالب / مروان ياسر متولي بالصف الثاني الثانوي علي المركز
-                الثاني لطالب المثالي
-              </li>
-            </div>
-            <div class="box col-md-5 left" data-filter="الطلبه">
-              <li>
-                حصول طلبة الملاحلة الإعدادية للمركز الأول بمسابقة أوائل الطلبة
-                على مستوى الإدارة و التصعيد
-              </li>
-            </div>
-            <div class="box col-md-5 right" data-filter="الطلبه">
-              <li>
-                وصول طلاب الصف الثاني الثانوي للملركز الثاني بمسابقة أوائل
-                الطلبة علي مستوى الإدارة و التصعيد
-              </li>
-            </div>
-            <div class="box col-md-5 left" data-filter="الطلبه">
-              <li>
-                فوز الطالب عبدالرحمن محمد على المركز السابع على مستوى الجمهورية
-                بمسابقة تحدى القراءة العربى
-              </li>
-            </div>
-            <div class="box col-md-5 right" data-filter="الادارة ">
-              <li>
-                حصول أ/أميرة عصام معلم تربية موسيقية هي و الطلاب علي العديد من
-                الجوائز علي مستوى المديرية كما اطلق عليها لفب مايسترو المديرية
-              </li>
-            </div>
-            <div class="box col-md-5 left" data-filter="المدرسة">
-              <li>
-                حصول المدرسة علي المركز الأول بمسابقة السيكودراما للمرحلة
-                الثانوية على مستوى المديرية
-              </li>
-            </div>
-            <div class="box col-md-5 right" data-filter="المدرسة">
-              <li>
-                تركيب كاميرات بكل فصول المدرسة و جميع الأماكن التي لم يكن فيها
-                كاميرات
-              </li>
-            </div>
-            <div class="box col-md-5 left" data-filter="المدرسة">
-              <li>
-                عمل محاضرات و ندوات متنوعة عن التنمر و التدخين و الوقاية من
-                الأمراض و الاسغافات الأولية
-              </li>
-            </div>
-            <div class="box col-md-5 alone " data-filter="المدرسة">
-              <li>
-                التواصل مع جميع طلاب المدرسة على جروبات الوتس اثناء انتشار فيروس
-                كورونا
-              </li>
+
+            <div
+              class="imgs-container justify-content-center d-flex flex-wrap gap-2 mt-2"
+            >
+              <div class="box col-md-5 right" data-filter="الادارة">
+                <li>
+                  حصول مديرة المدرسة علي المركز الخامس بمسابقة الرائد المثالي
+                </li>
+              </div>
+              <div class="box col-md-5 left" data-filter="المدرسة">
+                <li>
+                  حصول المدرسة علي المركز الثاني بمسابقة المكتب التنفيذي لاتحاد
+                  طلاب الإعدادي
+                </li>
+              </div>
+              <div class="box col-md-5 right" data-filter="الطلبه">
+                <li>
+                  حصول الطالب / مروان ياسر متولي بالصف الثاني الثانوي علي المركز
+                  الثاني لطالب المثالي
+                </li>
+              </div>
+              <div class="box col-md-5 left" data-filter="الطلبه">
+                <li>
+                  حصول طلبة الملاحلة الإعدادية للمركز الأول بمسابقة أوائل الطلبة
+                  على مستوى الإدارة و التصعيد
+                </li>
+              </div>
+              <div class="box col-md-5 right" data-filter="الطلبه">
+                <li>
+                  وصول طلاب الصف الثاني الثانوي للملركز الثاني بمسابقة أوائل
+                  الطلبة علي مستوى الإدارة و التصعيد
+                </li>
+              </div>
+              <div class="box col-md-5 left" data-filter="الطلبه">
+                <li>
+                  فوز الطالب عبدالرحمن محمد على المركز السابع على مستوى
+                  الجمهورية بمسابقة تحدى القراءة العربى
+                </li>
+              </div>
+              <div class="box col-md-5 right" data-filter="الادارة">
+                <li>
+                  حصول أ/أميرة عصام معلم تربية موسيقية هي و الطلاب علي العديد من
+                  الجوائز علي مستوى المديرية كما اطلق عليها لفب مايسترو المديرية
+                </li>
+              </div>
+              <div class="box col-md-5 left" data-filter="المدرسة">
+                <li>
+                  حصول المدرسة علي المركز الأول بمسابقة السيكودراما للمرحلة
+                  الثانوية على مستوى المديرية
+                </li>
+              </div>
+              <div class="box col-md-5 right" data-filter="المدرسة">
+                <li>
+                  تركيب كاميرات بكل فصول المدرسة و جميع الأماكن التي لم يكن فيها
+                  كاميرات
+                </li>
+              </div>
+              <div class="box col-md-5 left" data-filter="المدرسة">
+                <li>
+                  عمل محاضرات و ندوات متنوعة عن التنمر و التدخين و الوقاية من
+                  الأمراض و الاسغافات الأولية
+                </li>
+              </div>
+              <div class="box col-md-5 alone" data-filter="المدرسة">
+                <li>
+                  التواصل مع جميع طلاب المدرسة على جروبات الوتس اثناء انتشار
+                  فيروس كورونا
+                </li>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
       <!-- End Portfolio -->
     </section>
     <!-- * teachers of the school section - Amr -->
@@ -398,7 +407,7 @@
             <div class="social-icons-block contact-meta-block">
               <i class="d-inline fs-4 bi bi-chat-dots-fill"></i>
               <h4 class="d-inline">حساباتنا</h4>
-              <ul class="ms-md-2 list-inline social-icon">
+              <ul class="list-inline p-0 social-icon">
                 <li class="list-inline-item">
                   <a href="#"><i class="fs-2 text-muted bi bi-facebook"></i></a>
                 </li>
@@ -478,5 +487,12 @@
     <script src="../js/popper.min.js"></script>
     <script src="../js/bootstrap.min.js"></script>
     <script src="../js/script.js"></script>
+    <script>
+      filter();
+      animation();
+      scrollTop();
+      // Get the element with id="defaultOpen" and click on it
+      document.getElementById("defaultOpen").click();
+    </script>
   </body>
 </html>

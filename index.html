@@ -134,14 +134,14 @@
       <h2 class="special-heading mb-5 mt-md-4">تعرف علينا</h2>
       <div class="d-flex justify-content-around gap-3 align-items-center flex-column flex-lg-row">
         <div class="text-start d-flex flex-column justify-content-center">
-          <div class="card bg-main hoverbg p-3 m-2 m-md-0 mb-md-2">
+          <div class="card animateOut bg-main hoverbg p-3 m-2 m-md-0 mb-md-2">
             <div class="card-body text-center">
               <div class="card-title text-capitalize h4">مهمتنا</div>
               <div class="card-text lead">
 تربية الطلاب قبل تعلميهم و مساعدتهم علي تحقيق أهدافهم داعمينهم معنويا و علميا و تربويا              </div>
             </div>
           </div>
-          <div class="card bg-main hoverbg p-3 m-2 m-md-0 mb-md-2">
+          <div class="card animateOut bg-main hoverbg p-3 m-2 m-md-0 mb-md-2">
             <div class="card-body text-center">
               <div class="card-title text-capitalize h4">رؤيتنا</div>
               <div class="card-text lead">
@@ -185,7 +185,7 @@
               <br>
             </span>
           </p>
-          <button class="btn btn-light border-1 border-dark text-nowrap" onclick="readfunction()" id="readbutton">Read
+          <button class="btn btn-light border-1 border-dark animateOut hoverbg text-nowrap" onclick="readfunction()" id="readbutton">Read
             more</button>
         </div>
       </div>
@@ -196,36 +196,24 @@
     <h2 class="special-heading mt-md-4">احصائيات</h2>
     <h3 class="mt-4 fs-4 fw-normal text-muted">هذه الإحصائيات تعود إلي العام الدراسي 2022/2021م</h3>
     <div class="container px-4">
-      <!-- <div class="row row-cols-1 row-cols-md-2 justify-content-center align-items-md-center g-5 py-5">
-        <div class="d-flex flex-column align-items-start text-light gap-2 rtl">
-          <p class="text-muted">هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص
-            العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها
-            التطبيق. </p>
-        </div> -->
-        <!-- <div class="row row-cols-1 row-cols-sm-2 g-4"> -->
         <div class="d-flex flex-column flex-md-row align-items-center justify-content-between ">
           <div class="d-flex flex-column gap-2 box2 py-5">
             <div
               class="feature-icon-small d-flex flex-column align-items-center justify-content-center text-bg-primary fs-4 rounded-3">
                             <i class="bi bi-person-fill text-white"></i>
-
               <div class="value border border-main border-2 p-2 m-3 rounded text-light fw-bold" data-goal="71">0</div>
             </div>
             <h4 class="fw-semibold text-light text-hover mb-0">العاملين بالمدرسة</h4>
-            <!-- <p class="text-muted">.أبجد هوز حطى كلمن هوى ، إجراءات المراقبة المعززة. التوازن ، الاحتياجات الأكبر لرفض
-              المتعة ، من الصعب</p> -->
           </div>
 
           <div class="d-flex flex-column gap-2 box2 py-5">
             <div
               class="feature-icon-small d-flex flex-column align-items-center justify-content-center text-bg-primary fs-4 rounded-3">
                             <i class="bi bi-people-fill text-white"></i>
-
               <div class="value border border-main border-2 p-2 m-3 rounded text-light fw-bold" data-goal="612">0</div>
             </div>
             <h4 class="fw-semibold text-light text-hover mb-0">طلاب المرحلة الإعدادية</h4>
-            <!-- <p class="text-muted">.أبجد هوز حطى كلمن هوى ، إجراءات المراقبة المعززة. التوازن ، الاحتياجات الأكبر لرفض
-              المتعة ، من الصعب</p> -->
+
           </div>
 
           <div class="d-flex flex-column gap-2 box2 py-5">
@@ -236,8 +224,6 @@
               <div class="value border border-main border-2 p-2 m-3 rounded text-light fw-bold" data-goal="562">0</div>
             </div>
             <h4 class="fw-semibold text-light text-hover mb-0">طلاب المرحلة الثانوية</h4>
-            <!-- <p class="text-muted">.أبجد هوز حطى كلمن هوى ، إجراءات المراقبة المعززة. التوازن ، الاحتياجات الأكبر لرفض
-              المتعة ، من الصعب</p> -->
           </div>
 
           <div class="d-flex flex-column gap-2 box2 py-5">
@@ -248,8 +234,6 @@
               <div class="value border border-main border-2 p-2 m-3 rounded text-light fw-bold" data-goal="24">0</div>
             </div>
             <h4 class="fw-semibold text-light text-hover mb-0">فصل</h4>
-            <!-- <p class="text-muted">.أبجد هوز حطى كلمن هوى ، إجراءات المراقبة المعززة. التوازن ، الاحتياجات الأكبر لرفض
-              المتعة ، من الصعب</p> -->
           </div>
         </div>
       </div>
@@ -263,8 +247,9 @@
       <div id="one" class="carousel slide my-5" data-bs-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item text-center active">
-            <div class="d-block w-75  bg-main hoverbg p-4 m-auto">
+            <div class="d-block w-75 animateOut  bg-main hoverbg p-4 m-auto">
               <h6 class="text-capitalize h4 ">محمد</h6>
+              <p class="status text-muted">طالب</p>
               <p class="lead">
                 هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك
                 أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق.
@@ -272,8 +257,9 @@
             </div>
           </div>
           <div class="carousel-item">
-            <div class="d-block w-75  bg-main hoverbg p-4 m-auto">
+            <div class="d-block w-75 animateOut  bg-main hoverbg p-4 m-auto">
               <h6 class="text-capitalize h4">إبراهيم</h6>
+              <p class="status text-muted">طالب</p>
               <p class="lead">
                 هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك
                 أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق.
@@ -281,8 +267,9 @@
             </div>
           </div>
           <div class="carousel-item">
-            <div class="d-block w-75 bg-main hoverbg p-4 m-auto ">
+            <div class="d-block w-75 animateOut bg-main hoverbg p-4 m-auto ">
               <h6 class="text-capitalize h4">عادل</h6>
+              <p class="status text-muted">طالب</p>
               <p class="lead">
                 هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك
                 أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق.
@@ -291,8 +278,9 @@
           </div>
 
           <div class="carousel-item">
-            <div class="d-block w-75 bg-main hoverbg p-4 m-auto">
+            <div class="d-block w-75 animateOut bg-main hoverbg p-4 m-auto">
               <h6 class="text-capitalize h4">رامي</h6>
+              <p class="status text-muted">طالب</p>
               <p class="lead">
                 هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك
                 أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق.
@@ -300,11 +288,11 @@
             </div>
           </div>
           <button type="button" class="carousel-control-prev" data-bs-target="#one" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon  bg-main hoverbg" aria-hidden="true"></span>
+            <span class="carousel-control-prev-icon bg-main animateOut  hoverbg" aria-hidden="true"></span>
             <span class="visually-hidden">prev</span>
           </button>
           <button type="button" class="carousel-control-next" data-bs-target="#one" data-bs-slide="next">
-            <span class="carousel-control-next-icon bg-main hoverbg" aria-hidden="true"></span>
+            <span class="carousel-control-next-icon bg-main animateOut  hoverbg" aria-hidden="true"></span>
             <span class="visually-hidden">next</span>
           </button>
 
@@ -378,6 +366,10 @@
   <script src="js/popper.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
   <script src="js/script.js"></script>
+  <script>
+    counter()
+    scrollTop()
+  </script>
 </body>
 
 </html>

@@ -87,7 +87,7 @@ a {
   }
 }
 .navbar-dark .navbar-brand {
-  transition: ease 0.5s;
+  transition: ease-in-out 0.5s;
 }
 .navbar-dark .navbar-brand:hover {
   color: black !important;
@@ -197,16 +197,16 @@ body::before {
 .hoverbg:hover {
   background-color: var(--fourth-color);
   color: white;
-  transition: all 0.5s;
+  transition:ease-in-out all 0.5s;
 }
 .hoverbg2:hover {
   background-color: grey;
   color: white;
-  transition: all 0.5s;
+  transition:ease-in-out all 0.5s;
 }
 .hoverbg3:hover {
   background-color: white;
-  transition: all 0.5s;
+  transition:ease-in-out all 0.5s;
 }
 .hoverbg3:hover > h4,
 .hoverbg3:hover > div > i {
@@ -285,7 +285,9 @@ body::before {
 .hover-zoom:hover {
   transform: scale(1.1);
 }
-
+.animateOut{
+  transition:ease-in-out all 0.5s;
+}
 .imghover {
   transition: 0.5s;
 }
@@ -316,8 +318,8 @@ body::before {
   border: 1px solid #f8b56e;
   cursor: pointer;
 }
-.filterlist:hover ,.ilter {
-  background-color: var(--fourth-color);
+.filterlist:hover ,.filter {
+  background-color: var(--main-color);
   color: white;
 }
 li.active {
@@ -345,15 +347,15 @@ left: 450px;
   }
 .portfolio .box li {
   list-style: square;
-  transition: ease all .5s
+  /* transition: ease-in-out all .5s */
 }
 .portfolio .box:hover {
   background-color: var(--fourth-color);
-  transition: .5s;
+  /* transition: .5s; */
   color: white;
 }
 .portfolio div.active-right{
-  transition: 1.5s;
+  transition:ease-in-out all 0.5s;
   left: 0;
   /* right: 0; */
 }
@@ -366,7 +368,7 @@ left: 450px;
   /* right: 0; */
 }
 .portfolio div.active-left{
-  transition: 1.5s;
+  transition:ease-in-out all 0.5s;
   /* left: 0; */
   right: 0;
 }
@@ -463,11 +465,11 @@ footer > ul > li > a:hover {
 footer > p > a:hover {
   /* font-weight: 500; */
   color: rgb(0, 153, 255) !important;
-  transition: ease 0.5s;
+  transition: ease-in-out 0.5s;
 }
 footer > a > img:hover {
   transform: scale(1.1);
-  transition: ease 0.5s;
+  transition: ease-in-out 0.5s;
 }
 @media screen and (max-width: 640px) {
   .mfooter {
