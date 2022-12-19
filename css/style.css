@@ -7,6 +7,7 @@
   --fourth-color: #101010;
   --fifth-color: #ffffff;
 }
+body{position: relative;}
 .circle-bg{
   background-color: var(--third-color);
   border-radius: 50%;
@@ -44,11 +45,21 @@ a {
 .p-0 {
   padding: 0 !important;
 }
-#myBtn {
-  display: none;
-  position: fixed;
-  bottom: 4.5rem;
+.btn-cont{
+  position: absolute;
+  top: 0;
   right: 1rem;
+  height: 100%;
+}
+.btn-cont::before{
+  content: '';
+  display: block;
+  height: 100vh;
+  pointer-events: none;
+}
+#myBtn {
+  position: sticky;
+  top: 88vh;
   z-index: 20;
   font-size: 30px;
   background: rgb(70, 70, 70);
@@ -58,11 +69,6 @@ a {
   width: 3rem;
   height: 3rem;
 }
-/* #myBtn i:hover {
-  position: relative;
-  bottom: 11px;
-  right: 9px;
-} */
 #myBtn:hover {
   background-color: rgb(122, 122, 122);
 }
@@ -71,7 +77,7 @@ a {
   color: white !important;
   font-weight: bold !important;
   position: relative;
-  left: 50%;
+  left: 55%;
   bottom: 14px !important;
   /* right: 8px !important; */
 }
@@ -82,8 +88,7 @@ a {
 
 @media screen and (max-width: 600px) {
   #myBtn {
-    bottom: 1rem;
-    right: 1rem;
+    top:90vh
   }
 }
 .navbar-dark .navbar-brand {
