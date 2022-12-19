@@ -71,8 +71,9 @@ a {
   color: white !important;
   font-weight: bold !important;
   position: relative;
+  left: 50%;
   bottom: 14px !important;
-  right: 8px !important;
+  /* right: 8px !important; */
 }
 #myBtn:hover .bi-arrow-up::before,
 #myBtn:focus .bi-arrow-up::before {
@@ -315,7 +316,7 @@ body::before {
   border: 1px solid #f8b56e;
   cursor: pointer;
 }
-.filterlist:hover {
+.filterlist:hover ,.ilter {
   background-color: var(--fourth-color);
   color: white;
 }
@@ -327,32 +328,58 @@ li.active {
   display: flex;
   flex-wrap: wrap;
   gap: 5px;
+  overflow:hidden;
   margin-top: 20px;
 }
 .portfolio .box {
   overflow: hidden;
   position: relative;
-  width: -webkit-fill-available;
+
+  /* width: -webkit-fill-available; */
 }
+.portfolio .right{
+left: 450px;
+}
+.portfolio .left{
+  right: 450px;
+  }
 .portfolio .box li {
   list-style: square;
-  transition: ease all 1s
+  transition: ease all .5s
 }
 .portfolio .box:hover {
   background-color: var(--fourth-color);
+  transition: .5s;
   color: white;
 }
-
-@media (min-width: 768px) {
-  .portfolio  .box {
-    flex-basis: 50%;
-  }
+.portfolio div.active-right{
+  transition: 1.5s;
+  left: 0;
+  /* right: 0; */
 }
+
+.portfolio div.alone{
+  position: relative;
+  bottom: -100px;
+  transition: 1.5s;
+  
+  /* right: 0; */
+}
+.portfolio div.active-left{
+  transition: 1.5s;
+  /* left: 0; */
+  right: 0;
+}
+ @media (max-width: 988px) {
+  .portfolio  .box {
+    flex-basis: 75%;
+  }
+}/*
 @media (min-width: 1199px) {
   .portfolio .box {
     flex-basis: 31.3%;
   }
-}
+} */
 
 
 .box{

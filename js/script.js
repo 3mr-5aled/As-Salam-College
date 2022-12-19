@@ -66,18 +66,18 @@ function readfunction() {
 
 //  Counter
 
-let values = document.querySelectorAll(".value");
-let section = document.querySelector("#statistics")
-let started = false; // Function Started ? No
+// let values = document.querySelectorAll(".value");
+// let section = document.querySelector("#statistics")
+// let started = false; // Function Started ? No
 
-window.onscroll = function () {
-  if (window.scrollY >= section.offsetTop - 100) {
-    if (!started) {
-      values.forEach((num) => startCount(num));
-    }
-    started = true;
-  }
-};
+// window.onscroll = function () {
+//   if (window.scrollY >= section.offsetTop - 100) {
+//     if (!started) {
+//       values.forEach((num) => startCount(num));
+//     }
+//     started = true;
+//   }
+// };
 
 function startCount(el) {
   let goal = el.dataset.goal;
@@ -88,3 +88,49 @@ function startCount(el) {
     }
   }, 1000 / goal);
 }
+// animatio
+//  get all element in portofolio element
+var right=document.getElementsByClassName("right")
+var left=document.getElementsByClassName("left")
+// alone is last divv in portofolio elem 
+var alone=document.getElementsByClassName("alone")
+
+window.onload=function () {
+  setTimeout(function () {
+    for (let i = 0; i < right.length; i++) {
+      right[i].classList.add("active-right")
+      left[i].classList.add("active-left")
+      alone[0].style.bottom="0"
+      
+    }
+
+  },1)
+}
+
+
+// end animatio
+// start
+var li=Array.from (document.querySelector(".list-unstyled").children)
+var port=document.getElementsByClassName("box")
+li.forEach(function (ele) {
+  ele.addEventListener("click",function () {
+    for (let  i= 0;  i< li.length;i ++) {
+      li[i].classList.remove("ilter")
+    }
+    for (let i = 0; i < port.length; i++) {
+      if(ele.innerHTML != "All"){
+    
+      port[i].style.display="none"
+      if (port[i].getAttribute("data-filter")==ele.innerHTML) {
+        port[i].style.display="block"
+        ele.classList.add("ilter")
+
+      }
+      
+    }else{
+      port[i].style.display="block"
+
+    }
+    }})
+
+  })    
